@@ -1,0 +1,13 @@
+{
+  "name": "storyroot",
+  "private": true,
+  "scripts": {
+     "dev:story:web":"lerna  run --parallel --stream start:web --scope=@storyroot/storyapp"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  },
+  "workspaces":[
+    "packages/*"
+  ]
+}
